@@ -8,5 +8,5 @@ participant server
     server-->>browser: Payload that contains the created resource
     deactivate server
 
-    Note right of browser: The browser executes the callback function that renders the notes
+    Note right of browser: The browser renders the new note
 ```
